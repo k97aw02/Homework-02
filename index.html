@@ -3,54 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/reset.css">  
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     
     <title>About | Austin Walker</title>
 </head>
 <body>
-  <div class="container-xs" >
-    <div >  
-      <nav class="container-xs" style="background-color: #FFFF;" >
-        
-        <nav class="navbar navbar-expand-xs navbar-light"  >
-          <div class="row" >
-
-            <span class="navbar-brand m-0 h1" style="text-align: center;">Austin Walker</span>
-          </div>
-          <nav class="navbar navbar-expand-xs navbar-light" >
-            <a class="navbar-link" href="index.html">About</a>
-        
-          <nav class="navbar navbar-expand-xs navbar-light" >
-            <a class="navbar-link" href="portfolio.html">Portfolio</a>
-        
-            <nav class="navbar navbar-expand-xs navbar-light" >
-              <a class="navbar-link" href="contact.html">Contact</a>
-        </nav>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container" style="background: #4aaaa5">
+      
+      <a class="navbar-brand" href="index.html" id="logo">Austin Walker</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-      <section >
+  </nav> 
+  <main class="container-fluid" class="main-section">
+    <div class="container">
         <div class="row">
-          <div class="offset-1 col-lg-10" style="background-color: white" style="border-bottom: black;">
-            <h2 style="color:mediumturquoise">About Me</h2>
+          <div class="col-sm-10">
+            <h2 id="#about" >About Me</h2>
         </div>
             <div class="row">
-              <div class="offset-1 col-lg-2" style="background-color: white">
-                <img class="img img-thumbnail" src="https://vignette.wikia.nocookie.net/marvelcentral/images/9/97/Tony-Stark.jpg/revision/latest?cb=20130429010603" alt="Austin Walker">
+              <div class="offset-1 col-lg-2" >
+                <img class="img img-thumbnail" src="./Assets/Images/austin_profile.JPG" alt="Austin Walker">
               </div>
-              <div class="col-lg-8" stye="background-color: white;" >
+              <div class="col-lg-8">
                 <p>Dedicated goal motivated creative hardworking teamwork everyday is about doing my best and coffee</p>
               </div>
             </div>
+          </div>  
         </div>
-      </section>  
+      <section class="container">
+        <div class="col-sm-10">      
+          <div id="#portfolio" >    
+            <div class="row">
+              <h1> Recent Projects </h1>
+            </div>
+            <div class="row">
+              <div class="col-md-3"><a href=https://still-spire-72851.herokuapp.com/ target="_blank"> <img src="./Assets/Images/weighticon.png" class="image1" alt="web organizer group project thumbnail" title="Web Organizer bootcamp Group project"></a></div>
+              <div class="col-md-3"><a href=https://intense-caverns-83035.herokuapp.com/ target="_blank"> <img src="./Assets/Images/burgericon.jpg" class="image1" alt="eat da burger homework project thumbnail" title="Eat the Burger bootcamp MVC assignment"></a></div>
+              <div class="col-md-3"><a href=https://peaceful-everglades-00701.herokuapp.com/ target="_blank"> <img src="./Assets/Images/notebookicon.png" class="image1" alt="note taker JSON database homework project thumbnail" title="Note Taker bootcamp JSON Database assignment"></a> </div>
+              <div class="col-md-3"><a href=https://still-spire-72851.herokuapp.com/ target="_blank"> <img src="./Assets/Images/taskicon.png" class="image1" alt="web organizer group project thumbnail" title="Web Organizer bootcamp Group project"></a></div>
+            </div>
+            <div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-3"><a href=https://k97aw02.github.io/GitConnected-Project/ target="_blank"> <img src="./Assets/Images/camping.jpg" class="image1" alt="campground group project thumbnail" title="Campground locator bootcamp Group project"></a></div>
+              <div class="col-md-3"><a href=https://k97aw02.github.io/Homework-1/ target="_blank"> <img src="./Assets/Images/wokine-startup-factory.jpg" class="image1" alt="code refactor homework project thumbnail" title="Code Refactor bootcamp assignment"></a></div>
+              <div class="col-md-3"><a href=https://k97aw02.github.io/Code_Quiz/ target="_blank"> <img src="./Assets/Images/quiztime.jpg" class="image1" alt="codequiz homework project thumbnail" title="Code Quiz bootcamp assignment"></a></div>
+              <div class="col-md-3"><a href=https://still-spire-72851.herokuapp.com/ target="_blank"> <img src="./Assets/Images/200x200.png" class="image1" alt="web organizer group project thumbnail" title="Web Organizer bootcamp Group project"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>     
+      </main>
         
       <footer>
 
         <div class="row">
           <div class="col-lg-12">
-            <div class="card">
+            <div class="card" >
               <div class="card-body">
                 <div class="text-center">
                   <img class="img-thumbnail" style="width:50px; height:50px;" src="https://help.twitter.com/content/dam/help-twitter/twitter-logo.png" alt="twitter logo">
@@ -62,6 +92,7 @@
             </div>
           </div>
         </div>
+        
           
         <div class="row" >
           <div class="col-lg-12">
